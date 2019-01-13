@@ -157,22 +157,28 @@ namespace Task1
             CreateMesh(_sphereRadius, _rowCount, _columnCount);
         }
 
-        private void ColumnCountSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            _columnCount = columnCountSlider.Value;
-            CreateMesh(_sphereRadius, _rowCount, _columnCount);
-        }
-
-        private void RowCountSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            _rowCount = rowCountSlider.Value;
-            CreateMesh(_sphereRadius, _rowCount, _columnCount);
-        }
-
-        private void RadiusSphereSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            _sphereRadius = radiusSlider.Value;
-            CreateMesh(_sphereRadius, _rowCount, _columnCount);
+            Slider slider = sender as Slider;
+            if (slider != null)
+            {
+                switch (slider.Name)
+                {
+                    case "columnCountSlider":
+                        _columnCount = slider.Value;
+                        break;
+                    case "rowCountSlider":
+                        _rowCount = slider.Value;
+                        break;
+                    case "radiusSlider":
+                        _sphereRadius = slider.Value;
+                        break;
+                    default:
+                        Console.WriteLine($"Undefined object: {slider.Name}");
+                        break;
+                }
+                CreateMesh(_sphereRadius, _rowCount, _columnCount);
+            }
         }
 
         #endregion

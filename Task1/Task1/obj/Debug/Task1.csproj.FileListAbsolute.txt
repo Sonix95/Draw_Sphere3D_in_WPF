@@ -13,3 +13,18 @@ E:\Documents\UNITY couses\Task1\Task1\obj\Debug\Task1.csproj.GenerateResource.ca
 E:\Documents\UNITY couses\Task1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
 E:\Documents\UNITY couses\Task1\Task1\obj\Debug\Task1.exe
 E:\Documents\UNITY couses\Task1\Task1\obj\Debug\Task1.pdb
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\bin\Debug\Task1.exe.config
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\bin\Debug\Task1.exe
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\bin\Debug\Task1.pdb
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1.csprojAssemblyReference.cache
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\MainWindow.g.cs
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\App.g.cs
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1_MarkupCompile.cache
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1_MarkupCompile.lref
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\MainWindow.baml
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1.g.resources
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1.Properties.Resources.resources
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1.csproj.GenerateResource.cache
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1.exe
+E:\Documents\Draw_Sphere3D_in_WPF\Task1\Task1\obj\Debug\Task1.pdb

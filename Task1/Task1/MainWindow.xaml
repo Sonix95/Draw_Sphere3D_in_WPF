@@ -8,20 +8,20 @@
         Title="MainWindow" Height="600" Width="800" Loaded="Window_Loaded">
     <Grid x:Name="MainGrid">
         <Slider x:Name="columnCountSlider" Minimum="3" Maximum="50" TickPlacement="BottomRight"
-                IsSnapToTickEnabled="True" ValueChanged="ColumnCountSlider_ValueChanged" Margin="130,30,130,0" SmallChange="1" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Width="532" Value="26"/>
+                IsSnapToTickEnabled="True" ValueChanged="Slider_ValueChanged" Margin="130,30,130,0" SmallChange="1" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Width="532" Value="26"/>
         <Label Content="{Binding ElementName=columnCountSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" 
                HorizontalAlignment="Right" VerticalAlignment="Top" 
                Margin="0,28,96,0" Width="37" Height="25"/>
 
         <Slider x:Name="rowCountSlider" Minimum="3" Maximum="50" TickPlacement="BottomRight"
                 Orientation="Vertical" IsSnapToTickEnabled="True" Margin="15,70,733,70" 
-                ValueChanged="RowCountSlider_ValueChanged" SmallChange="1" HorizontalAlignment="Center" Width="44" Height="429" VerticalAlignment="Center" Value="26"/>
+                ValueChanged="Slider_ValueChanged" SmallChange="1" HorizontalAlignment="Center" Width="44" Height="429" VerticalAlignment="Center" Value="26"/>
         <Label Content="{Binding ElementName=rowCountSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" 
                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,43,0,0" Width="27" />
 
         <Slider x:Name="radiusSlider" Minimum="1" Maximum="7" TickPlacement="BottomRight"
                 IsSnapToTickEnabled="True" Margin="164,0,178,10" Value="4" 
-                ValueChanged="RadiusSphereSlider_ValueChanged" Height="26" VerticalAlignment="Bottom" TickFrequency="0.1" />
+                ValueChanged="Slider_ValueChanged" Height="26" VerticalAlignment="Bottom" TickFrequency="0.1" />
         <Label Content="{Binding ElementName=radiusSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" 
                HorizontalAlignment="Right" Margin="0,0,157,13" VerticalAlignment="Bottom"/>
 

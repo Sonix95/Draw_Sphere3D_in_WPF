@@ -21,7 +21,7 @@
 
         <Slider x:Name="radiusSlider" Minimum="1" Maximum="7" TickPlacement="BottomRight"
                 IsSnapToTickEnabled="True" Margin="164,0,178,10" Value="4" 
-                ValueChanged="Slider_ValueChanged" Height="26" VerticalAlignment="Bottom" TickFrequency="0.1" />
+                ValueChanged="Slider_ValueChanged" Height="26" VerticalAlignment="Bottom" TickFrequency="0.1" SmallChange="0.01" />
         <Label Content="{Binding ElementName=radiusSlider, Path=Value, UpdateSourceTrigger=PropertyChanged}" 
                HorizontalAlignment="Right" Margin="0,0,157,13" VerticalAlignment="Bottom"/>
 
